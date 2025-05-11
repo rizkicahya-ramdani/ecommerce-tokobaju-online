@@ -1,15 +1,13 @@
 function About() {
   return (
-    <div className="about py-20 bg-slate-100">
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold text-center mb-4">About Us</h1>
-        <div className="flex justify-center items-center">
-          <p className="w-150 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor velit pariatur ipsum ab quae, necessitatibus distinctio cupiditate at quidem? Corrupti, non. Corrupti neque atque quasi aspernatur vel minus dolore soluta, repellat aliquam odit ullam et nihil harum omnis incidunt ut dolorum, reprehenderit rem beatae explicabo eos! Fugit architecto natus ut dolore eum eaque, esse commodi nisi exercitationem dolorum, cumque fuga quibusdam soluta est assumenda omnis laborum explicabo similique tempore, cupiditate voluptates non totam debitis! Laudantium totam rem placeat cumque corrupti incidunt aspernatur ipsa iure eum, excepturi voluptas explicabo facilis adipisci fugiat. Iste, aliquam qui. Tenetur deserunt ipsam ratione dicta maiores.
-          </p>
-        </div>
+    <section id="tentang" className="py-16 bg-white">
+      <div className="container mx-auto px-6 text-center">
+        <h2 className="text-3xl font-bold text-gray-800 mb-4">Tentang Kami</h2>
+        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          Fashionista adalah toko online terpercaya yang menyediakan pakaian trendi dan nyaman untuk semua kalangan. Kami percaya bahwa setiap orang berhak tampil gaya tanpa harus mahal.
+        </p>
       </div>
-    </div>
+    </section>
   );
 }
 

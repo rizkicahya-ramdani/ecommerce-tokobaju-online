@@ -11,7 +11,7 @@ function Navbar() {
           <li><a href="/katalog" className="hover:text-pink-600 transition">Katalog</a></li>
           <li><a href="" className="hover:text-pink-600 transition">Promo</a></li>
           <li><a href="#" className="hover:text-pink-600 transition">Tentang Kami</a></li>
-          <li><a href="#" className="hover:text-pink-600 transition">Kontak</a></li>
+          <li><a href="/kontak" className="hover:text-pink-600 transition">Kontak</a></li>
         </ul>
 
         {/* Ikon Keranjang & Menu Hamburger */}

@@ -1,7 +1,3 @@
-import React from "react";
-
-import Navbar from "../components/Navbar";
-
 function Katalog() {
   const produk = [
     { id: 1, nama: "Kaos Polos", harga: "Rp 99.000", gambar: "https://source.unsplash.com/400x400/?tshirt" },
