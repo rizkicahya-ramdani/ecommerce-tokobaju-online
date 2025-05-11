@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 function Kontak() {
+  useEffect(() => {
+    document.title = "Fashionista - Kontak Kami";
+  }, []);
+
   return (
     <section id="kontak" className="py-20 bg-gray-100">
       <div className="container mx-auto px-6 max-w-3xl">
