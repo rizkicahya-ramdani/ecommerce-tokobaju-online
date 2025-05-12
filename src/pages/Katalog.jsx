@@ -6,10 +6,10 @@ function Katalog() {
   }, []);
 
   const produk = [
-    { id: 1, nama: "Kaos Polos", harga: "Rp 99.000", gambar: "https://source.unsplash.com/400x400/?tshirt" },
-    { id: 2, nama: "Jaket Denim", harga: "Rp 249.000", gambar: "https://source.unsplash.com/400x400/?jacket" },
-    { id: 3, nama: "Dress Wanita", harga: "Rp 179.000", gambar: "https://source.unsplash.com/400x400/?dress" },
-    { id: 4, nama: "Kemeja Pria", harga: "Rp 139.000", gambar: "https://source.unsplash.com/400x400/?shirt" },
+    { id: 1, nama: "Kaos Polos", harga: "Rp 99.000", gambar: "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//89/MTA-21021909/kasual_kasual_crew_black_tee-_full01_skcvqsml.jpg" },
+    { id: 2, nama: "Jaket Denim", harga: "Rp 249.000", gambar: "https://img.lazcdn.com/g/p/4a4ec214f796f4864b6c05eceb46cfec.jpg_720x720q80.jpg" },
+    { id: 3, nama: "Dress Wanita", harga: "Rp 179.000", gambar: "https://id-live-02.slatic.net/p/4918f3de72d2d3ec96a78e4f7871f153.jpg" },
+    { id: 4, nama: "Kemeja Pria", harga: "Rp 139.000", gambar: "https://img.lazcdn.com/g/p/b9e45e1a853406381cd9a277a3d499e5.jpg_720x720q80.jpg" },
   ];
 
   return (

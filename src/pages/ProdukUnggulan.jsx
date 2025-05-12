@@ -4,25 +4,25 @@ function FeaturedProducts() {
       id: 1,
       name: "Blouse Floral Wanita",
       price: "Rp 149.000",
-      image: "https://source.unsplash.com/400x400/?fashion,woman,blouse",
+      image: "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/104/MTA-175120798/brd-44261_blouse-formal-polos-wanita-lengan-panjang-putih-m_full05-cbc0f0e4.jpg",
     },
     {
       id: 2,
       name: "Kaos Oversize Pria",
       price: "Rp 119.000",
-      image: "https://source.unsplash.com/400x400/?tshirt,man,fashion",
+      image: "https://images.tokopedia.net/img/cache/700/product-1/2020/11/22/5931845/5931845_4a7d4311-5f71-4a96-9ca1-4722268aa219.jpg",
     },
     {
       id: 3,
       name: "Dress Casual",
       price: "Rp 179.000",
-      image: "https://source.unsplash.com/400x400/?dress,fashion",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhsmT-G1zR9nV3wdnnm-SnUHwdBpWLaTW5AA&s",
     },
     {
       id: 4,
       name: "Hoodie Unisex",
       price: "Rp 199.000",
-      image: "https://source.unsplash.com/400x400/?hoodie,clothing",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_S3-ehujPsEjMwvDQNQ1PQacPoEihK2XgfA&s",
     },
   ];
 
