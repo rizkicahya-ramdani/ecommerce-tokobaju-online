@@ -1,9 +1,12 @@
 import { useEffect } from "react";
+import { useCart } from "../context/CartContext";
 
 function Katalog() {
   useEffect(() => {
     document.title = "Fashionista - Katalog Produk";
   }, []);
+
+  const { addToCart } = useCart();
 
   const produk = [
     { id: 1, nama: "Kaos Polos", harga: "Rp 99.000", gambar: "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//89/MTA-21021909/kasual_kasual_crew_black_tee-_full01_skcvqsml.jpg" },
@@ -23,6 +26,9 @@ function Katalog() {
                 <img src={item.gambar} alt={item.nama} className="w-full h-60 object-cover mb-4 rounded" />
                 <h3 className="text-lg font-semibold">{item.nama}</h3>
                 <p className="text-pink-600 font-bold">{item.harga}</p>
+                <button onClick={() => addToCart(item)} className="mt-4 px-4 py-2 bg-pink-600 text-white rounded hover:bg-pink-700 transition">
+                  Tambah ke Keranjang
+                </button>
               </div>
             ))}
           </div>
