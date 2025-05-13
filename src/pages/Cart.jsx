@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Cart() {
   const { cartItems, removeFromCart } = useCart();
 
-  console.log("Isi keranjang sekarang:", cartItems); // 👈 Debug log
+  console.log("Isi keranjang sekarang:", cartItems);
 
   return (
     <section className="py-16 bg-white">
