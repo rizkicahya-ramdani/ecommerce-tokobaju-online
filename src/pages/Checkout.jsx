@@ -55,7 +55,7 @@ function Checkout() {
                 name="nama"
                 onChange={handleChange}
                 required
-                className="w-full mt-1 p-2 border rounded"
+                className="w-full mt-1 p-2 border border-gray-500 rounded"
               />
             </div>
 
@@ -66,7 +66,7 @@ function Checkout() {
                 onChange={handleChange}
                 required
                 rows="3"
-                className="w-full mt-1 p-2 border rounded"
+                className="w-full mt-1 p-2 border border-gray-500 rounded"
               />
             </div>
 
@@ -75,7 +75,7 @@ function Checkout() {
               <select
                 name="metode"
                 onChange={handleChange}
-                className="w-full mt-1 p-2 border rounded"
+                className="w-full mt-1 p-2 border border-gray-500 rounded"
               >
                 <option>Transfer Bank</option>
                 <option>COD (Bayar di Tempat)</option>
